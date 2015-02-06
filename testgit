@@ -1,0 +1,19 @@
+lkl@acer:~$ git init 
+初始化空的 Git 版本库于 /home/lkl/.git/
+lkl@acer:~$ rm .g
+.gconf/          .git/            .gstreamer-0.10/ .gvfs/
+lkl@acer:~$ rm -rf .git/
+lkl@acer:~$ ls
+Desktop    Downloads  Music  Pictures  Templates  Videos     本系统软件安装说明
+Documents  eclipse    pdf    Public    tool       workspace
+lkl@acer:~$ mkdir repository
+lkl@acer:~$ cd repository/
+lkl@acer:~/repository$ ls
+lkl@acer:~/repository$ git init 
+初始化空的 Git 版本库于 /home/lkl/repository/.git/
+lkl@acer:~/repository$ ls
+lkl@acer:~/repository$ cd .git/
+lkl@acer:~/repository/.git$ ls
+branches  config  description  HEAD  hooks  info  objects  refs
+lkl@acer:~/repository/.git$ git log 
+fatal: bad default revision 'HEAD'
